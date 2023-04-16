@@ -39,14 +39,14 @@ const About =()=>{
                     visible:{opacity:1,y:0}
             }}
             >
-
-        <div className="relative pl-80 left-20 z-0 mt-40 before:absolute before:top-[-30px] before:left-60 before:rounded-t-[250px] before:w-80 before:max-w-[250px] md:before:max-w-[250px] sm:right-40 before:h-full before:border-2 before:border-blue before:z-[-1] "
-        >
+                
+        <div className="flex justify-center pt-16">
             <img 
-            className="hover:filter hover:saturate-200 transition duration-500 max-w-[250px] md:max-w-[250px] rounded-t-[400px] w-80 "
+            className="hover:filter hover:saturate-150 transition duration-500 max-w-[250px] md:max-w-[250px] rounded-t-[400px] w-80 "
             src={profile} 
             alt="" />
-            </div>
+        </div>
+            {/* </div> */}
 
             </motion.div>
 
@@ -65,12 +65,6 @@ const About =()=>{
             <p className="font-opensans font-semibold text-2xl text-center py-12" >Let me begin with my <span className="text-red"> introduction </span></p>
             <p className="font-sans font-normal text-lg leading-7 text-justify">Hello, I am  Ayushi Upreti. Presently I am a sophomore at Noida Institute of Engineering and Technology, Greater Noida. I have interest in building things from raw. I have had my hands on React projects as well as MERN stack projects. I love to explore the world of tech.</p>
 
-            <p className="font-opensans text-xl font-semibold pt-8">My interests aside from coding -</p>
-            <ul className="list-disc font-sans font-normal text-lg pl-5 pt-4">
-                <li>Reading</li>
-                <li>Shopping</li>
-                <li>Travelling</li>
-            </ul>
             </motion.div>
            
     </section>
