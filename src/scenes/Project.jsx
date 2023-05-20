@@ -42,17 +42,16 @@ const Project=()=>{
     return(
         <section id="projects" className="pt-20 pb-40 w-full">
              <motion.div
-             className="mx-auto text-center"
              initial="hidden"
              whileInView="visible"
-             viewport={{once:true}}
-             transition={{duration:0.2}}
+             viewport={{once:true,amount:0.5}}
+             transition={{duration:0.5}}
              variants={{
                  hidden:{opacity:0 , y:-50},
                  visible:{opacity:1, y:0}
              }} 
              >
-            <p className="font-playfair font-semibold text-4xl">
+            <p className="font-playfair font-semibold text-4xl text-center">
                 My <span className="text-red">PROJECTS</span>
             </p>
             <div className="flex justify-center mt-5 mb-20">
@@ -67,7 +66,7 @@ const Project=()=>{
                 <motion.div
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{once:true, amount:0.4}}
+                    viewport={{once:true}}
                     transition={{duration:0.4}}
                     variants={{
                         hidden:{opacity:0 , y:-50},
@@ -80,8 +79,8 @@ const Project=()=>{
                     <div key={index} className="shadow-md shadow-pink-600 rounded-lg duration-200 hover:scale-105">
                         <img src={value.src} alt="weatherapp" className="rounded-md "/>
                         <button className="w-full mt-6 text-2xl">{value.title}</button>
-                        <p className="text-justify mx-5 mb-5 mt-5">{value.Description}</p>
-                        <div className="flex items-center justify-center my-5">
+                        <p className="md:text-justify mx-5 mb-5 mt-5">{value.Description}</p>
+                        <div className="flex items-center justify-center my-5 ">
                         <a href={value.link} target="_blank" rel="noreferrer">
                         <button className="px-5 py-3 shadow shadow-pink-600 rounded-lg bg-pink-600 duration-200 hover:scale-105">View Project</button>
                         </a>
