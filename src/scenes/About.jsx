@@ -63,7 +63,7 @@ const About =()=>{
             >
 
             <p className="font-opensans font-semibold text-2xl text-center py-12" >Let me begin with my <span className="text-red"> introduction </span></p>
-            <p className="font-sans font-normal text-lg leading-7 text-justify">Hello, I am  Ayushi Upreti. Presently I am a sophomore at Noida Institute of Engineering and Technology, Greater Noida. I have interest in building things from raw. I have had my hands on React projects as well as MERN stack projects. I love to explore the world of tech.</p>
+            <p className="font-sans font-normal text-lg leading-7 text-justify">Hello, I am  Ayushi Upreti. Presently I am a junior at Noida Institute of Engineering and Technology, Greater Noida. I have interest in building things from raw. I have had my hands on React projects, and I also possess some familiarity with MERN stack projects. My eagerness to learn has allowed me to explore the world of tech with great enthusiasm.</p>
 
             </motion.div>
            

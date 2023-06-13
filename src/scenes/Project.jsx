@@ -1,5 +1,6 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
+import mern from "../assets/mern.png";
 import weather from "../assets/weather-app.png";
 import news from "../assets/news-app.jpeg";
 import textutils from  "../assets/textutils2.jpeg";
@@ -8,6 +9,14 @@ import tindog from "../assets/tindog.jpeg";
 const Project=()=>{
 
     const portfolios=[
+
+        {
+            src:mern,
+            title:"Exercise Tracker",
+            Description:"A basic MERN stack app with create, read, update, delete functionalities (CRUD Operations)",
+            link:"https://github.com/AyushiUpreti/ExerciseTracker.git"
+            
+        },
         {
             
             src:weather,
