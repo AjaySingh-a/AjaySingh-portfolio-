@@ -1,15 +1,23 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
-import mern from "../assets/mern.png";
+import mern from "../assets/mern (2).png";
 import weather from "../assets/weather-app.png";
 import news from "../assets/news-app.jpeg";
 import textutils from  "../assets/textutils2.jpeg";
 import tindog from "../assets/tindog.jpeg";
+import crypto from "../assets/crypto.jpeg";
 
 const Project=()=>{
 
     const portfolios=[
 
+        {
+            src:crypto,
+            title:"CryptoDigest",
+            Description:"Cryptodigest is an app that offers a wealth of information on every cryptocurrency currently available. It allowes users to make informed decisions about their investments",
+            link:"https://github.com/AyushiUpreti/CryptoDigest.git"
+            
+        },
         {
             src:mern,
             title:"Exercise Tracker",
