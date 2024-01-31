@@ -9,6 +9,8 @@ import tailwind from "../assets/tailwind (2).png";
 import bootstrap from "../assets/bootstrap.png";
 import git from "../assets/git.png";
 import mongo from "../assets/mongo (2).png";
+import python from '../assets/python.svg.png';
+import cpp from "../assets/cpp.svg.png";
 
 // import { FaBootstrap } from "react-icons/fa";
 
@@ -62,7 +64,7 @@ const Skills =()=>{
         {
            
             src:git,
-            title:"Git",
+            title:"Git/Github",
             style:"shadow-white"
         },
 
@@ -71,7 +73,16 @@ const Skills =()=>{
             title:"MongoDB",
             style:"shadow-green-400"
         },
-        
+        {
+            src:cpp,
+            title:"C++",
+            style:"shadow-blue"
+        },
+        {
+            src:python,
+            title:"Python",
+            style:"shadow-yellow"
+        },
     ];
 
 

@@ -1,9 +1,7 @@
-// import useMediaQuery from "../hooks/useMediaQuery";
 import { useMediaQuery } from 'react-responsive';
-// import { TypeAnimation } from 'react-type-animation';
 import profile3 from "../assets/profile3.png";
 import {motion} from "framer-motion";
-
+import Typewriter from "typewriter-effect";
 
 
 const Landing=({setSelectedPage})=>{
@@ -11,12 +9,6 @@ const Landing=({setSelectedPage})=>{
     const isDesktopOrLaptop = useMediaQuery({
         query: '(min-width: 1224px)'
       });
-    //   const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
-    //   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-    //   const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
-    //   const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
-    
-    // const isAboveMediumScreens=useMediaQuery("(min-width:1060px)");
 
     return(
         <section id="home" className="md:flex md:justify-between md:items-center md:h-full gap-16 py-10">
@@ -44,9 +36,23 @@ const Landing=({setSelectedPage})=>{
                     <p className="text-xl font-sans text-center md:text-start">Hello, I am</p>
                     <p className="text-5xl font-playfair z-10 text-center md:text-start ">
                         Ayushi {""}
-                        <span className="md:relative md:text-deep-blue md:font-semibold z-20 md:before:content-brush before:absolute before:-left-[25px] before:-top-[80px] before:z-[-1]">Upreti</span>
+                        <span className="md:relative md:text-deep-blue md:font-semibold z-20 md:before:content-brush before:absolute before:-left-[25px] before:-top-[90px] before:z-[-1]">Upreti</span>
                     </p>
-                    <p className='pt-4 font-sans text-xl text-center md:text-start'>Web Developer</p>
+                    <div className='pt-4 font-sans text-xl text-center md:text-start'>
+                    <Typewriter
+                onInit={(typewriter) => {
+                    typewriter
+                        .typeString("Web Developer/Designer")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("UI/UX Desginer")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("Software Engineer")
+                        .start();
+                }}
+            />
+                       </div>
 
                 </motion.div>
                    </div>
