@@ -42,13 +42,13 @@ const Landing=({setSelectedPage})=>{
                     <Typewriter
                 onInit={(typewriter) => {
                     typewriter
-                        .typeString("Web Developer/Designer")
-                        .pauseFor(1000)
-                        .deleteAll()
-                        .typeString("UI/UX Desginer")
+                        .typeString("Full Stack Developer")
                         .pauseFor(1000)
                         .deleteAll()
                         .typeString("Software Engineer")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("UI/UX Desginer")
                         .start();
                 }}
             />
