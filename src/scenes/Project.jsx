@@ -5,7 +5,7 @@ import weather from "../assets/weather-app.png";
 import news from "../assets/news-app.jpeg";
 import textutils from  "../assets/textutils2.jpeg";
 import tindog from "../assets/tindog.jpeg";
-import crypto from "../assets/crypto.jpeg";
+import crypto from "../assets/cryptoforge.png";
 import blog from "../assets/mernapp.png"
 
 const Project=()=>{
@@ -14,8 +14,8 @@ const Project=()=>{
 
         {  
             src:crypto,
-            title:"CryptoDigest",
-            Description:"Cryptodigest is an app that offers a wealth of information on every cryptocurrency currently available. It allowes users to make informed decisions about their investments",
+            title:"CryptoForge",
+            Description:"Cryptoforge is an app that offers a wealth of information on every cryptocurrency currently available. It allowes users to make informed decisions about their investments",
             
             
         },
