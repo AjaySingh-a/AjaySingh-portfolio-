@@ -12,11 +12,11 @@ const Project=()=>{
 
     const portfolios=[
 
-        {  
+      {  
             src:crypto,
             title:"CryptoForge",
-            Description:"Cryptoforge is an app that offers a wealth of information on every cryptocurrency currently available. It allowes users to make informed decisions about their investments",
-            
+            Description:"CryptoForge is an app that offers a wealth of information on every cryptocurrency currently available. It allowes users to make informed decisions about their investments",
+            link: "https://github.com/AjaySingh-a/Cryptoforge.git"
             
         },
         {
@@ -24,7 +24,7 @@ const Project=()=>{
             src:weather,
             title:"Weather App",
             Description:"An app made using react and OpenWeatherMap which on searching displays the current weather of that particular place.",
-            
+            link:""
             
         },
         {
@@ -32,20 +32,21 @@ const Project=()=>{
             src:news,
             title:"NewsPower",
             Description:"An app made using react and NewsApi which fetches the latest news and displays them into different fields.",
-            
+            link:""
         },
         {
             
             src:textutils,
             title:"TextUtils",
             Description:"A simple react App which executes different operations on a text.",
-            
+            link:""
         },
         {
            
             src:tindog,
             title:"TinDog",
             Description:"A simple website made using html, css and bootstrap.",
+            link:"https://github.com/AjaySingh-a/TinDog.git"
             
         }
     ];
