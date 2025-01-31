@@ -1,9 +1,9 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 import mern from "../assets/mern (2).png";
-import weather from "../assets/weather-app.png";
-import news from "../assets/news-app.jpeg";
-import textutils from  "../assets/textutils2.jpeg";
+import weather from "../assets/expenses.png";
+import news from "../assets/original.png";
+import textutils from  "../assets/4.PNG";
 import tindog from "../assets/tindog.jpeg";
 import crypto from "../assets/cryptoforge.png";
 import blog from "../assets/mernapp.png"
@@ -12,7 +12,7 @@ const Project=()=>{
 
     const portfolios=[
 
-      {  
+        {  
             src:crypto,
             title:"CryptoForge",
             Description:"CryptoForge is an app that offers a wealth of information on every cryptocurrency currently available. It allowes users to make informed decisions about their investments",
@@ -22,7 +22,7 @@ const Project=()=>{
         {
             
             src:weather,
-            title:"Weather App",
+            title:"Personal Finance Management System",
             Description:"An app made using react and OpenWeatherMap which on searching displays the current weather of that particular place.",
             link:""
             
@@ -30,14 +30,14 @@ const Project=()=>{
         {
            
             src:news,
-            title:"NewsPower",
+            title:"Fake news detection",
             Description:"An app made using react and NewsApi which fetches the latest news and displays them into different fields.",
             link:""
         },
         {
             
             src:textutils,
-            title:"TextUtils",
+            title:"Learning Management System",
             Description:"A simple react App which executes different operations on a text.",
             link:""
         },
