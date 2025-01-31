@@ -82,12 +82,12 @@ const Contact = () => {
                         </div>
                         <div className="flex justify-center md:justify-start">
                             <a
-                                href="C:\Users\ASUS\Ajay Singh\src\assets\AJAY_S_RESUME.pdf"
-                                download
-                                className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 rounded-md hover:scale-105 transition-transform duration-300 inline-block"
-                            >
-                                Download CV
-                            </a>
+                            href="/Ajay_Singh.pdf" // Path relative to the public folder
+                            download="Ajay_Singh.pdf" // Optional: Specify the downloaded file name
+                            className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 rounded-md hover:scale-105 transition-transform duration-300 inline-block"
+>
+    Download CV
+</a>
                         </div>
                     </div>
                 </div>
