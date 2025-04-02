@@ -10,7 +10,7 @@ import bootstrap from "../assets/bootstrap.png";
 import git from "../assets/git.png";
 import mongo from "../assets/mongo (2).png";
 import python from '../assets/python.svg.png';
-import cpp from "../assets/cpp.svg.png";
+import java from "../assets/java.jpg";
 
 // import { FaBootstrap } from "react-icons/fa";
 
@@ -74,8 +74,8 @@ const Skills =()=>{
             style:"shadow-green-400"
         },
         {
-            src:cpp,
-            title:"C++",
+            src:java,
+            title:"Java",
             style:"shadow-blue"
         },
         {

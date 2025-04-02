@@ -1,5 +1,5 @@
 import { useMediaQuery } from 'react-responsive';
-import profile3 from "../assets/profile3.png";
+import profile3 from "../assets/bitmoji2.png";
 import {motion} from "framer-motion";
 import Typewriter from "typewriter-effect";
 
@@ -35,20 +35,17 @@ const Landing=({setSelectedPage})=>{
                 >
                     <p className="text-xl font-sans text-center md:text-start">Hello, I am</p>
                     <p className="text-5xl font-playfair z-10 text-center md:text-start ">
-                        Ayushi {""}
-                        <span className="md:relative md:text-deep-blue md:font-semibold z-20 md:before:content-brush before:absolute before:-left-[25px] before:-top-[90px] before:z-[-1]">Upreti</span>
+                        Ajay {""}
+                        <span className="md:relative md:text-deep-blue md:font-semibold z-20 md:before:content-brush before:absolute before:-left-[25px] before:-top-[90px] before:z-[-1]">Singh</span>
                     </p>
                     <div className='pt-4 font-sans text-xl text-center md:text-start'>
                     <Typewriter
                 onInit={(typewriter) => {
                     typewriter
-                        .typeString("Full Stack Developer")
-                        .pauseFor(1000)
-                        .deleteAll()
                         .typeString("Software Engineer")
                         .pauseFor(1000)
                         .deleteAll()
-                        .typeString("UI/UX Desginer")
+                        .typeString("Full Stack Developer")
                         .start();
                 }}
             />

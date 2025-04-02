@@ -1,58 +1,61 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 import mern from "../assets/mern (2).png";
-import weather from "../assets/weather-app.png";
-import news from "../assets/news-app.jpeg";
-import textutils from  "../assets/textutils2.jpeg";
+import weather from "../assets/expenses.png";
+import news from "../assets/original.png";
+import textutils from  "../assets/4.PNG";
 import tindog from "../assets/tindog.jpeg";
-import crypto from "../assets/crypto.jpeg";
+import crypto from "../assets/cryptoforge.png";
 import blog from "../assets/mernapp.png"
+import capsool from "../assets/capsool.png";
 
 const Project=()=>{
 
     const portfolios=[
 
-        {
-            src:blog,
-            title:"Blog App",
-            Description:"A full-stack application featuring CRUD functionality, bcrypt encryption for securing passwords, and JWT authentication.",
-            link:"https://github.com/AyushiUpreti/MERN-Blog"},
-
-        {    
+        {  
+            src:capsool,
+            title:"Capsool",
+            Description:"Capsool is an on-demand medicine delivery platform that connects customers with nearby pharmacies through a real-time bidding system. Customers place orders, and multiple pharmacies compete by bidding to offer the best price and fastest delivery. The app ensures affordable pricing, real-time updates, and seamless order tracking, making medicine procurement faster, transparent, and more competitive. ",
+            link: "https://github.com/AjaySingh-a/Capsool-Pharmacy-app-.git"
+            
+        },
+        {  
             src:crypto,
-            title:"CryptoDigest",
-            Description:"Cryptodigest is an app that offers a wealth of information on every cryptocurrency currently available. It allowes users to make informed decisions about their investments",
-            link:"https://github.com/AyushiUpreti/CryptoDigest.git"
+            title:"CryptoForge",
+            Description:"CryptoForge is an app that offers a wealth of information on every cryptocurrency currently available. It allowes users to make informed decisions about their investments",
+            link: "https://github.com/AjaySingh-a/Cryptoforge.git"
             
         },
         {
             
             src:weather,
-            title:"Weather App",
+            title:"Personal Finance Management System",
             Description:"An app made using react and OpenWeatherMap which on searching displays the current weather of that particular place.",
-            link:"https://github.com/AyushiUpreti/weather"
+            link:""
             
         },
         {
            
             src:news,
-            title:"NewsPower",
+            title:"Fake news detection",
             Description:"An app made using react and NewsApi which fetches the latest news and displays them into different fields.",
-            link:"https://github.com/AyushiUpreti/NewsPower"
+            link:""
         },
         {
             
             src:textutils,
-            title:"TextUtils",
+            title:"Learning Management System",
             Description:"A simple react App which executes different operations on a text.",
-            link:"https://github.com/AyushiUpreti/TextUtils"
+            link:""
         },
         {
            
             src:tindog,
             title:"TinDog",
             Description:"A simple website made using html, css and bootstrap.",
-            link:"https://github.com/AyushiUpreti/TinDog"
+            link:"https://github.com/AjaySingh-a/TinDog.git"
+            
         }
     ];
 

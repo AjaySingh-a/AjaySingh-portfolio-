@@ -1,6 +1,6 @@
 import LineGradient from "../components/LineGradient";
 import {motion} from "framer-motion";
-import profile from "../assets/profile.jpeg";
+import profile from "../assets/about.jpg";
 
 const About =()=>{
 
@@ -63,7 +63,7 @@ const About =()=>{
             >
 
             <p className="font-opensans font-semibold text-2xl text-center py-12" >Let me begin with my <span className="text-red"> introduction </span></p>
-            <p className="font-sans font-normal text-lg leading-7 text-left">Hello! I am  Ayushi Upreti, a final year enginering student. I have interest in building things from raw. I have had my hands on React projects, and MERN stack projects. My eagerness to learn has allowed me to explore the world of tech with great enthusiasm. Join me on this journey of design and technology where we create user-centric experiences that leave a lasting impression. </p>
+            <p className="font-sans font-normal text-lg leading-7 text-left">Hello! I am  Ajay Singh, a final year engineering student. I have interest in building things from raw. I have had my hands on React projects, and Full stack projects. My eagerness to learn has allowed me to explore the world of tech with great enthusiasm. Join me on this journey of design and technology where we create user-centric experiences that leave a lasting impression. </p>
 
             </motion.div>
            
