@@ -1,12 +1,10 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
-import mern from "../assets/mern (2).png";
 import weather from "../assets/expenses.png";
 import news from "../assets/original.png";
 import textutils from  "../assets/4.PNG";
 import tindog from "../assets/tindog.jpeg";
 import crypto from "../assets/cryptoforge.png";
-import blog from "../assets/mernapp.png"
 import capsool from "../assets/capsool.png";
 
 const Project=()=>{
@@ -17,7 +15,6 @@ const Project=()=>{
             src:capsool,
             title:"Capsool",
             Description:"Capsool is an on-demand medicine delivery platform that connects customers with nearby pharmacies through a real-time bidding system. Customers place orders, and multiple pharmacies compete by bidding to offer the best price and fastest delivery. The app ensures affordable pricing, real-time updates, and seamless order tracking, making medicine procurement faster, transparent, and more competitive. ",
-            link: "https://github.com/AjaySingh-a/Capsool-Pharmacy-app-.git"
             
         },
         {  
