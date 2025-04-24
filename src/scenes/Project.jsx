@@ -15,13 +15,13 @@ const Project=()=>{
             src:capsool,
             title:"Capsool",
             Description:"Capsool is an on-demand medicine delivery platform that connects customers with nearby pharmacies through a real-time bidding system. Customers place orders, and multiple pharmacies compete by bidding to offer the best price and fastest delivery. The app ensures affordable pricing, real-time updates, and seamless order tracking, making medicine procurement faster, transparent, and more competitive. ",
-            
+            link:"https://github.com/AjaySingh-a/Capsool-PharmacyApp.git"
         },
         {  
             src:crypto,
             title:"CryptoForge",
             Description:"CryptoForge is an app that offers a wealth of information on every cryptocurrency currently available. It allowes users to make informed decisions about their investments",
-            link: "https://github.com/AjaySingh-a/Cryptoforge.git"
+            link: "https://crypto-forge-umber.vercel.app/"
             
         },
         {
