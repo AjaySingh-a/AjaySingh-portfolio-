@@ -1,7 +1,7 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 import weather from "../assets/expenses.png";
-import news from "../assets/original.png";
+import news from "../assets/live news.png";
 import textutils from  "../assets/4.PNG";
 import tindog from "../assets/tindog.jpeg";
 import crypto from "../assets/cryptoforge.png";
@@ -25,19 +25,19 @@ const Project=()=>{
             
         },
         {
+           
+            src:news,
+            title:"Sachify-Fake news detector",
+            Description:"**Sachify** is a full-stack fake news detection web application that uses Machine Learning (Python) for classification and a modern React-based frontend for user interaction. It helps users verify whether a news article is **Real** or **Fake** using Natural Language Processing (NLP) techniques.",
+            link:"https://github.com/AjaySingh-a/Fake-news-detector.git"
+        },
+        {
             
             src:weather,
             title:"Personal Finance Management System",
             Description:"An app made using react and OpenWeatherMap which on searching displays the current weather of that particular place.",
             link:""
             
-        },
-        {
-           
-            src:news,
-            title:"Fake news detection",
-            Description:"An app made using react and NewsApi which fetches the latest news and displays them into different fields.",
-            link:""
         },
         {
             
